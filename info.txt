@@ -1,0 +1,17 @@
+# usefull command and tips 
+## generating the new project
+    - npx express-generator --no-view --git ./
+## install nodemon
+- npm install nodemon --save-dev
+## in package.json added:
+    "type": "module" : This allows you to use the import and export statements instead of require and module.exports.
+
+    - changed scripts object content to:
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+
+## install a linter:
+- npx eslint --init
+
+## install package to allow us store environment variables
+npm install .env
